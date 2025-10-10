@@ -978,6 +978,14 @@
   color: #fff !important;
 }
 
+/* untuk video */
+.about-image iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px; /* opsional, biar sudutnya halus */
+}
+
 
 
 
