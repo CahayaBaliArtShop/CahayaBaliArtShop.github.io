@@ -10,7 +10,11 @@
   }
 
 
-
+/* Nambah AKu yaa */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
 
 /* custom */
 /* .main-menu {
@@ -1180,3 +1184,45 @@
     }
   }
 
+  html, body, .container, .row {
+    max-width: 100vw;
+    /* overflow-x: hidden; */
+  }
+  
+
+  /* ====== Perbaikan ukuran video YouTube di desktop ====== */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* rasio 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+/* ====== Khusus desktop: buat tinggi lebih besar ====== */
+@media (min-width: 992px) {
+  .video-container {
+    padding-bottom: 45%; /* lebih tinggi (bisa ubah ke 40–50 sesuai selera) */
+  }
+
+  .about-image {
+    position: relative;
+    width: 100%;
+  }
+
+  /* pastikan tidak terbatasi oleh kolom */
+  .col-md-6 .about-image {
+    height: auto;
+  }
+}
