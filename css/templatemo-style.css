@@ -1263,7 +1263,7 @@ img, video, iframe {
 #home .owl-stage-outer,
 #home .owl-stage,
 #home .item {
-  width: 100vw !important;   /* full lebar layar */
+  width: 100vw ;   /* full lebar layar */
   margin: 0 !important;
   padding: 0 !important;
   left: 0 !important;
