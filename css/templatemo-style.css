@@ -432,15 +432,15 @@ img, video, iframe {
   }
 
   .slider .item-first {
-    background-image: url(../images/landing1.jpeg);
+    background-image: url(../images/landing1.webp);
   }
 
   .slider .item-second {
-    background-image: url(../images/landing2.jpeg);
+    background-image: url(../images/landing2.webp);
   }
 
   .slider .item-third {
-    background-image: url(../images/landing3.jpeg);
+    background-image: url(../images/landing3.webp);
   }
 
   .slider .item-second .section-btn {
@@ -819,7 +819,7 @@ img, video, iframe {
 
   .footer-open-hour {
     background: #C89329;
-    background: url('../images/bebek.jpg') center center no-repeat;
+    background: url('../images/bebek.webp') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
