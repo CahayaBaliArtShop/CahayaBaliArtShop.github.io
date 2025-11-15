@@ -430,15 +430,15 @@ img, video, iframe {
   }
 
   .slider .item-first {
-    background-image: url(../images/landing1.webp);
+    background-image: url('https://cahayabali.com/images/landing1.webp');
   }
 
   .slider .item-second {
-    background-image: url(../images/landing2.webp);
+    background-image: url('https://cahayabali.com/images/landing2.webp');
   }
 
   .slider .item-third {
-    background-image: url(../images/landing3.webp);
+    background-image: url('https://cahayabali.com/images/landing3.webp');
   }
 
   .slider .item-second .section-btn {
