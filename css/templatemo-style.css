@@ -677,7 +677,7 @@ img, video, iframe {
   -----------------------------------------*/
 
   #testimonial {
-    background: url('../images/343.jpeg') center center no-repeat;
+    background: url(../images/343.jpeg) center center no-repeat;
     background-size: cover;
   }
 
