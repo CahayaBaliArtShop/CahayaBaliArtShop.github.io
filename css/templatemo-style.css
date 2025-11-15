@@ -430,15 +430,15 @@ img, video, iframe {
   }
 
   .slider .item-first {
-    background-image: url('https://cahayabali.com/images/landing1.webp');
+    background-image: url(../images/landing1.jpeg);
   }
 
   .slider .item-second {
-    background-image: url('https://cahayabali.com/images/landing2.webp');
+    background-image: url(../images/landing2.jpeg);
   }
 
   .slider .item-third {
-    background-image: url('https://cahayabali.com/images/landing3.webp');
+    background-image: url(../images/landing3.jpeg);
   }
 
   .slider .item-second .section-btn {
@@ -817,7 +817,7 @@ img, video, iframe {
 
   .footer-open-hour {
     background: #C89329;
-    background: url('../images/bebek.webp') center center no-repeat;
+    background: url(../images/bebek.jpg) center center no-repeat;
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
@@ -966,7 +966,7 @@ img, video, iframe {
 /* ====== PERBAIKAN BACKGROUND TESTIMONIAL (untuk desktop) ====== */
 #testimonial {
   background-color: #f9f9f9 !important; /* 💡 Sesuaikan warna aslinya di sini */
-  background-image: url('../images/343.jpeg'); /* Jika sebelumnya ada gambar */
+  background-image: url(../images/343.jpeg); /* Jika sebelumnya ada gambar */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
